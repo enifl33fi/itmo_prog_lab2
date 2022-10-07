@@ -17,6 +17,11 @@ public class Main {
         b.addFoe(p2);
         b.addFoe(p4);
         b.addFoe(p1);
-        b.go();
+        try {
+            b.go();
+        } catch (Exception e){
+            System.out.println("not enough pokemons");
+        }
+
     }
 }
