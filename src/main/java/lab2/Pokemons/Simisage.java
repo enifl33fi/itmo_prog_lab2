@@ -1,4 +1,6 @@
-package lab2;
+package lab2.Pokemons;
+
+import lab2.Moves.RockSlide;
 
 public class Simisage extends Pansage {
     public Simisage(String name, int level) {

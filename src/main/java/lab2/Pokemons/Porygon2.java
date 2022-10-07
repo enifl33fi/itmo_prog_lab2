@@ -1,4 +1,6 @@
-package lab2;
+package lab2.Pokemons;
+
+import lab2.Moves.DefenceCurl;
 
 public class Porygon2 extends Porygon {
     public Porygon2(String name, int level) {

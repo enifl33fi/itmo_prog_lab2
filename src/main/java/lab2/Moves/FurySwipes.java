@@ -1,4 +1,4 @@
-package lab2;
+package lab2.Moves;
 
 import ru.ifmo.se.pokemon.*;
 
@@ -13,7 +13,7 @@ public class FurySwipes extends PhysicalMove {
 
     protected  static int getNumberOfHits(){
         int hits;
-        double chanceCounter = Math.random();
+        var chanceCounter = Math.random();
         if (chanceCounter < 0.375){
             hits = 2;
         }
@@ -30,7 +30,7 @@ public class FurySwipes extends PhysicalMove {
     }
     @Override
     protected void applyOppDamage(Pokemon def, double damage){
-        int hits = getNumberOfHits();
+        var hits = getNumberOfHits();
         def.setMod(Stat.HP, (hits * (int) Math.round(damage)));
     }
 }

@@ -1,5 +1,9 @@
-package lab2;
+package lab2.Pokemons;
 
+import lab2.Moves.Charm;
+import lab2.Moves.Discharge;
+import lab2.Moves.Swift;
+import lab2.Moves.Thunderbolt;
 import ru.ifmo.se.pokemon.*;
 
 public class Plusle extends Pokemon {

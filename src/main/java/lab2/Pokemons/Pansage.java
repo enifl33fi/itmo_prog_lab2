@@ -1,5 +1,8 @@
-package lab2;
+package lab2.Pokemons;
 
+import lab2.Moves.FurySwipes;
+import lab2.Moves.RockTomb;
+import lab2.Moves.SeedBomb;
 import ru.ifmo.se.pokemon.*;
 
 public class Pansage extends Pokemon {

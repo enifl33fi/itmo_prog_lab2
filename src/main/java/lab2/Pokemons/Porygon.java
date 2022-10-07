@@ -1,5 +1,7 @@
-package lab2;
+package lab2.Pokemons;
 
+import lab2.Moves.SignalBeam;
+import lab2.Moves.TriAttack;
 import ru.ifmo.se.pokemon.*;
 
 public class Porygon extends Pokemon {
