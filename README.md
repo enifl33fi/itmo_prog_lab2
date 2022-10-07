@@ -19,4 +19,4 @@
 
 ## Покемоны:
 
-![Image alt](https://github.com/{enifl33fi}/{itmo_prog_lab2}/raw/{master}/{docs}/pokemons.png)
+![Image alt](https://github.com/enifl33fi/itmo_prog_lab2/raw/master/docs/pokemons.png)
